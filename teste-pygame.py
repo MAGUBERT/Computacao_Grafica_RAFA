@@ -20,7 +20,7 @@ def cor_aleatoria(diferente_de=None):
             return c
 
 def velocidade():
-    return random.randint(3, 7)
+    return random.randint(3,10)
 
 texto1_conteudo = "MATHEUS"
 texto1_cor = cor_aleatoria()
